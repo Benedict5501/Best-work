@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ul{
+    background: #f7f6f4;
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid rgb(171, 168, 168);
+    list-style: none;
+    gap: 30px;
+    padding-left: 80px;
+    padding-top: 16px;
+}
+nav{
+   display: flex;
+   justify-content: center;
+   gap: 400px;
+   position: sticky;
+   background-color: #f7f6f4;
+   top: 50vh;
+}
+.system{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background-color: #ece8d9;
+   padding-top: 20px;
+   margin-top: 1px;
+   
+}
+.system img{
+    padding-left: 50px;
+}
+.topman{
+    text-decoration: none;
+    padding-right: 16px;
+    color: #46576d;
+
+}
+.me{
+margin-right: 100px;
+}
+.stopman{
+     text-decoration: none;
+    padding-right: 16px;
+    color: #db686a;
+
+}
+.board{
+   padding-top: 50px; 
+   background-color: #ece8d9;
+   padding-bottom: 40px;
+   display: flex;
+   gap: 412px;
+ 
+}
+.pablo{
+margin-left: 50px;
+}
+.Quality{
+    font-family: serif;
+    font-size: 60px;
+    color: #384a62;
+}
+.Shipped{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #708095;
+}
+.print{
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #384a83;
+
+}
+.input{
+    border: none;
+    margin-left: -400px;
+}
+.button{
+    width: 600px;
+    height: 80px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+}
+.hand{
+    width: 400px;
+}
+.mimi{
+    color: black;
+    background-color: #f3b1cd;
+}
+.Product-tag{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.Popular{
+    margin-left: 4%;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+    color: #384a62;
+    margin-top: 29px;
+}
+.all{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d77f83;
+    margin-top: 29px;
+    font-weight: bold;
+    margin-left: 700px;
+}
+#rows{
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+}
+.item1{
+    width: 230px;
+    height: 14rem;
+    object-fit: cover;
+    transition: transform .2s;
+    margin-top: -5px;
+    padding-left: -90px;
+    padding-top: 9.1px;
+}
+
+.item1:hover{
+    transform: scale(1.08);
+}
+.tag{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 200px;
+}
+.field-1{
+    width: max-content;
+    background-color:  rgb(255, 254, 254);
+    box-shadow:  1px 1px 6px  rgb(0, 0, 0);
+    border: none;
+    padding-bottom: 50px;
+}
+.starting{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px; 
+    color: #708095
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 10px; 
+    margin-top: -1px;
+
+}
+#p100{
+    font-size: 14px;
+    color: #6b7e9b;
+}
+.browse{
+    padding: 10px 14px;
+    background-color: rgb(215,127,129);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    margin-left: 4px;
+    
+}
+.item2{
+   
+    width: 230px;
+    height: 14rem;
+    object-fit: cover;
+transition: transform .2s;
+margin-top: -5px;
+padding-left: -90px;
+padding-top: 9.1px;
+  
+}
+.item2:hover{
+    transform: scale(1.08);
+}
+
+.item2:hover{
+    transform: scale(1.08);
+}
+.item3{
+    width: 230px;
+    height: 14rem;
+    object-fit: cover;
+transition: transform .2s; 
+margin-top: -5px;
+padding-left: -90px;
+padding-top: 9.1px;
+  
+}
+.item3:hover{
+    transform: scale(1.08);
+}
+
+.item4{
+   
+    width: 230px;
+    height: 14rem;
+    object-fit: cover;
+transition: transform .2s; 
+margin-top: -5px;
+padding-left: -90px;
+padding-top: 9.1px;
+  
+}
+.item4:hover{
+    transform: scale(1.08);
+}
+
+#row-2{
+    display: flex; 
+    gap: 30px;
+    margin-left: 90px;
+    margin-top: 30px;
+   }
+   .shop{
+       margin-top: 60px;
+       margin-left: 90px;
+       font-size: 20px;
+       color: #384a62;
+   }
+    .print{
+       width: 650px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight:bold;
+       color: #506683;
+       line-height: 34px;
+       margin-top: -15px;
+    }
+    .us{
+       font-size: 30px;
+   margin-left: 100px;
+   }
+   
+   .rl2{
+      
+       width: 230px;
+       height: 14rem;
+       object-fit: cover;
+       object-position: -28px ;
+   transition: transform .2s;
+   margin-top: -5px;
+   padding-left: -90px;
+   padding-top: 9.1px;
+     
+   }
+   .rl2:hover{
+       transform: scale(1.08);
+     }

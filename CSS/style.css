@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+.paragraph{
+    color: seagreen;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#para{
+    background-color: blueviolet;
+    color: gold;
+  }
+
+/* colorname */
+h2{
+  background-color: green;
+}
+
+/* rgb */
+
+h1{
+  background-color: rgb(rgb(96, 76, 76), rgb(34, 207, 34), rgb(248, 248, 251));
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+  /* tag name  or element */
+
+div{
+    background-color: aqua;
+    color:red
+}
+div{
+  background-color: brown;
+  color:black
+}
+
+  /* classname */
+
+  .meandthem{
+    background-color: blueviolet;
+    color: bisque;
+  }
+  /* ID name */
+
+  .g{
+    font-size: 90px;
+    color: #4889f4;
+  }
+
+  .of{
+    font-size: 90px;
+    color: #eb493b;
+  }
+
+  .o{
+    font-size: 90px;
+    color:#fbb24f ;
+  }
+
+  .g{
+    font-size: 90px;
+    color: #1d4ac1;
+  }
+
+  .l{
+    font-size: 90px;
+    color: #099018;
+  }
+
+  .e{
+    font-size: 90px;
+    color: #e53c50;
+  }
+
+ 

@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    border-bottom: 1px solid rgb(209, 206, 206);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+    
+}
+nav{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 90px;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.hero h1{
+    font-size: 70px; 
+    line-height: 70px;
+    margin: 120px  0 20px 0;
+    color: rgb(13, 2, 70);
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero button{
+    margin-top: 20px;
+    padding: 20px 35px;
+    background: rgb(6, 6, 121);
+    border: none;
+    color:white;
+    border-radius: 10px;
+}
+.heropix img{
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+.atglancetxt{
+   width: 30%;
+   margin: 50px 290px 0px 0px;
+    color: white;
+    float: right;
+    gap: 70px;
+}
+.weme{
+    color: white;
+    background: transparent;
+    margin-top: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.atglancetxt p{
+    margin-top: 20px;
+}
+.yeye{
+    background: rgb(25,2,55) url(img/meme.jpg);
+    background-size: cover;
+    height: 400px;
+    padding: 30px;
+    background-position: center;
+    margin: 0 auto;
+}
+.alumni{
+    margin: 100px;
+}
+.wray{
+    width: 50%;
+    margin: 0 auto;
+}
+.rows .row1,.row2,.row3{
+    display: flex;
+     justify-content: space-between;
+     margin-bottom: 50px;
+}
+
+.techContinent{
+    background: #f0faff;
+    padding: 80px 0;
+padding: 70px 0;
+    
+}
+.techContinent-text{
+    width:29%;
+    margin-left: 60px;
+}
+.techgroup{
+    display: flex;
+    justify-content: center;
+  
+}
+.techContinent-text h1{
+    font-size: 50px;
+}
+.techContinent-text p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.topCourses h1{
+    font-size: 50px;
+}
+.topCourses p{
+    font-size: 18px;
+}
+.cardOne{
+    width: 30%;
+    background: #d5eaf3;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.cardOne img{
+    border-radius: 30px;
+}
+
+.topCourses{
+    width:80%;
+    padding: 70px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.cardTwo{
+    width: 50%;
+    background: #eeefbd;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: -40%;
+
+}
+.cardTwo img{
+    border-radius: 30px;
+}
+
+.groupcard1{
+    display: flex;
+    justify-content: space-around;
+}
+.first-boxes{
+
+}
+
+.pic1{
+width: 400px;
+padding-left: 100px;
+padding-top: 50px;
+}
+.head1{
+    margin-left: 20PX;
+}
+.boxes{
+    width: 30%;
+
+}
+.boxes h1{
+    margin-bottom: 20px;
+}
+.boxes p{
+    margin-bottom: 20px;
+}
+
+.box1{
+    background: #d5eaf3;
+    padding: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.box1 img{
+    border-radius: 15px;
+}
+
+.box2{
+    background: #eeefbd;
+  
+}
+
+.john{
+    width: 30%;
+}
+
+.john h1{
+    margin-bottom: 20px;
+}
+
+.john p{
+    margin-bottom: 20px;
+}
+
+.box3{
+    background: #e0d5c0;
+    padding: 40px;
+    border-radius: 30px;
+    margin-top: 20px;   
+    position: relative;
+    right: -300px; 
+    bottom: 50px;
+}
+
+.box3 img{
+    border-radius: 15px;
+}
+
+.box4{
+    background: #dfd5e8;
+    position: relative;
+    right: -800px;
+    top: -800px;
+}

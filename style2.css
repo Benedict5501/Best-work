@@ -1,0 +1,67 @@
+
+
+h2{
+    color: red;
+}
+
+.sam{
+    margin-left: -20px
+}
+
+.john{
+    margin-left: -100px;
+}
+
+.par{
+    margin-left: 120px;
+}
+
+.pwe{
+    margin-left: -30px;
+}
+ul {
+    display: flex;
+    line-height: 40px;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+body{
+    background: black;
+    color:white;
+}
+
+.ws{
+    color: brown;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    height: 40px;
+
+    
+}
+button{
+    margin-top: 10px;
+    background: blue;
+    color: white;
+}
+button:hover{
+    background: red;
+}
+center{
+    margin-top: 80px;
+}
+
+fieldset{
+    width: 50%;
+    margin-left: 40px;
+}
